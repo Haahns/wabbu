@@ -5,8 +5,8 @@
 body {
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
-	background-color: #ffffff;
-    background-color: rgb(162, 186, 230);
+
+    background-color: #92CE6C;
 }
 
 #container {
@@ -26,9 +26,18 @@ body {
 }
 
 #text-container h1 {
-	margin: 0;
-	font-size: clamp(1.5rem, 5vw, 2.5rem);
-	line-height: 1.2;
+	font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #301185;
+    font-weight: bolder;
+}
+
+
+#text-container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1f262e;
 }
 
 #text-container h2 {
@@ -37,6 +46,22 @@ body {
 	font-weight: 600;
 }
 
+
+button {
+    background-color: #1f262e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#map {
+    display: none;
+    text-align: center;
+}
 @media (min-width: 768px) {
 	#text-container {
 		padding: 1.5rem 2rem 2rem;

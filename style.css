@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	background-color: #ffffff;
+    background-color: rgb(162, 186, 230);
+}
+
+#container {
+	width: 100%;
+}
+
+#hero-image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#text-container {
+	padding: 1rem 1rem 1.5rem;
+	text-align: center;
+	color: #000000;
+}
+
+#text-container h1 {
+	margin: 0;
+	font-size: clamp(1.5rem, 5vw, 2.5rem);
+	line-height: 1.2;
+}
+
+#text-container h2 {
+	margin: 0.5rem 0 0;
+	font-size: clamp(1rem, 3.5vw, 1.5rem);
+	font-weight: 600;
+}
+
+@media (min-width: 768px) {
+	#text-container {
+		padding: 1.5rem 2rem 2rem;
+	}
+}

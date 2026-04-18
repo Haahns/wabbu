@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Location Map</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100svh;
+            display: grid;
+            place-items: center;
+            padding: 1rem;
+          
+        }
+
+        img {
+            display: block;
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: calc(100svh - 2rem);
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+<h2>Kanojen teltta lokaatio</h2>
+    <img src="lokaatio.jpg" alt="Map of the event location">
+    <button onclick="window.location.href='index.html'">Takaisin etusivulle</button>
+</body>
+</html>

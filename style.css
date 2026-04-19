@@ -16,7 +16,6 @@
 
 body {
 	margin: 0;
-	/* font-family: "Open Sans", sans-serif; */
     min-height: 100vh;
     background-color: #92CE6C;
 }
@@ -56,11 +55,6 @@ body {
 	text-align: center;
 }
 
-/* #text-container p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #1f262e;
-} */
 
 
 

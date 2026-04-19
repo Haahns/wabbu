@@ -2,15 +2,40 @@
 	box-sizing: border-box;
 }
 
+
+@font-face {
+  font-family: myImpact;
+  src: url(impact.ttf);
+}
+
+@font-face {
+  font-family: myAptos;
+  src: url(Aptos.ttf);
+}
+
+
 body {
 	margin: 0;
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
 
     background-color: #92CE6C;
 }
 
+#vappu p {
+    font-family: myImpact, sans-serif;
+    font-size: 19vh;
+    color: #301185;;
+    text-align: center;
+    margin: 0;
+    margin-bottom: -5%;
+}
+
 #container {
 	width: 100%;
+}
+
+#hero {
+    position: relative;
 }
 
 #hero-image {
@@ -19,24 +44,40 @@ body {
 	height: auto;
 }
 
+#vappu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 #text-container {
 	padding: 1rem 1rem 1.5rem;
 	text-align: center;
-	color: #000000;
 }
 
-#text-container h1 {
-	font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+/* #text-container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #1f262e;
+} */
+
+
+
+
+#text-container h3 {
     color: #301185;
-    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /* font-weight: normal; */
 }
 
 
 #text-container p {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: myAptos, sans-serif;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: normal;
     color: #1f262e;
 }
 
